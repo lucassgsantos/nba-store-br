@@ -4,14 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Início - NBA Store BR</title>
-  
   <link rel="stylesheet" href="geral.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
     <div class="container header-content">
       <h1 class="logo">NBA Store BR</h1>
+      <button class="hamburger" onclick="document.querySelector('.menu').classList.toggle('open')">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav>
         <ul class="menu">
           <li><a href="index.html" class="active">Início</a></li>
@@ -39,13 +44,11 @@
           <h3>Denver Nuggets - Nikola Jokić</h3>
           <p class="preco">R$ 279,90</p>
         </article>
-
         <article class="produto-card">
           <img src="camisa_warriors.png" alt="Camisa Golden State Warriors" />
           <h3>Golden State Warriors - Stephen Curry</h3>
           <p class="preco">R$ 279,90</p>
         </article>
-
         <article class="produto-card">
           <img src="camisa_clippers.png" alt="Camisa Los Angeles Clippers" />
           <h3>Los Angeles Clippers - Kawhi Leonard</h3>
@@ -56,8 +59,8 @@
   </main>
 
   <footer>
-    <div class="container footer-content">
-      <p>© 2025 NBA Store BR | Desenvolvido por Lucas Gabriel</p>
+    <div class="container">
+      <p>&copy; 2026 NBA Store BR | Desenvolvido por Lucas Gabriel</p>
     </div>
   </footer>
 </body>
