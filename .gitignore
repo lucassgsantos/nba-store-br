@@ -1,0 +1,7 @@
+.next
+.next-dev.pid
+node_modules
+out
+dist
+coverage
+*.log
